@@ -29,26 +29,29 @@
     
 
     <meta property="og:title" content="My First Post" />
-<meta property="og:description" content="May 28, 2019 I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken." />
+<meta property="og:description" content="May 30, 2019
+I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://anika-rawat.github.io/posts/my-first-post/" />
 <meta property="article:published_time" content="2019-05-28T22:39:34&#43;01:00"/>
 <meta property="article:modified_time" content="2019-05-28T22:39:34&#43;01:00"/>
 
 <meta itemprop="name" content="My First Post">
-<meta itemprop="description" content="May 28, 2019 I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken.">
+<meta itemprop="description" content="May 30, 2019
+I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken.">
 
 
 <meta itemprop="datePublished" content="2019-05-28T22:39:34&#43;01:00" />
 <meta itemprop="dateModified" content="2019-05-28T22:39:34&#43;01:00" />
-<meta itemprop="wordCount" content="71">
+<meta itemprop="wordCount" content="378">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My First Post"/>
-<meta name="twitter:description" content="May 28, 2019 I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken."/>
+<meta name="twitter:description" content="May 30, 2019
+I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken."/>
 
   </head>
 
@@ -107,8 +110,14 @@
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>May 28, 2019
-I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>May 30, 2019</p>
+
+<p>I created this basic poker game utilizing python dictionaries and lists. The game prompts allows for multiple players and deals shuffled cards of 5 cards from a full deck. The player hand with the highest card value is evaluated as the winning hand. If there is a tie within highest cards, the second highest is compared within the hands and third highest etc until a tie is broken.</p>
+
+<p>Further description of code inner workings:
+The user is able to run this program on terminal with command line integer paramater of the number of players in the game. Then the user is prompted to enter the player names. My program then creates a full deck of card elements with a list to represent a simple card deck. The deck is then shuffled in-place. In order to &ldquo;deal&rdquo; cards, I implemented a method that would replicate dealing in real life. My program creates a list of five empty lists and then pops a card off the shuffled card list and adds one card to each of the five player hands. This is repeated five times till everyone has a pretty random hand of 5 cards each. Then to compare the hands, my code takes the hands (a list of lists) and then turns all values into integers using a dictionary that maps face card values like Jack, Queen, King, and Ace to their respective value after 10 so 11, 12, 13, and 14. Then, I sorted each player hand list in descending order. In order to compare hands to pick the winner based on the highest card, I make a list of the maximum value in each player hand and then declare the winner and winning hand if it was a clear, unique win. To address tie-breaking, when I make a maximum value list, I delete that max value from each hand&rsquo;s sorted list so the next max value is at the front of each player hand list. Then, my compare function is run again on the next highest card values until there are no ties to break. Once a winning hand is identified with the strongest value cards, the original winner hand of the player is displayed and the game is over!</p>
+
+<p>Enjoy playing this poker!</p>
 <ul class="pa0">
   
 </ul>
